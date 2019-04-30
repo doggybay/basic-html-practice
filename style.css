@@ -1,0 +1,94 @@
+
+.container {
+    display: flex;
+}
+
+ul {
+    border: 1px solid black;
+    width: 100px;
+    list-style-type: none;
+    margin-left: 100px;
+    padding-left: 10px;
+}
+
+ul.footer2 {
+    width: 200px;
+    text-align: center;
+    margin-left: 160px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column
+}
+
+.personalInfo {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+}
+.uname {
+    padding: 20px;
+}
+
+.ufrom {
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.from {
+    padding: 20px
+}
+.nfrom {
+padding: 20px;
+}
+.uname {
+    padding: 5px;
+}
+
+.button {
+
+    padding-inline-start: 30px;
+}
+
+.body {
+    padding-block-start: 20px;
+    margin-inline-start: 50px;
+}
+
+.total {
+    background-color: #eeeeee;
+}
+
+h2 {
+    margin: 12px;
+}
+table {
+    margin: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 40%;
+}
+
+th {
+    text-align: justify;
+    background-color: #a5a5a5;
+    border-right: 2px solid black;
+    height: 20px;
+}
+
+td {
+    border-right: 2px solid black;
+    height: 20px;
+}
+
+tr:nth-child(odd) {
+    background-color: #eeeeee;
+}
+th:last-child, td:last-child {
+    border-right: none;
+}
