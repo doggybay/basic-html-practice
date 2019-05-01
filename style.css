@@ -3,7 +3,7 @@
     display: flex;
 }
 
-ul {
+ul.lists {
     border: 1px solid black;
     width: 100px;
     list-style-type: none;
@@ -11,10 +11,11 @@ ul {
     padding-left: 10px;
 }
 
-ul.footer2 {
+.footer2 {
     width: 200px;
     text-align: center;
-    margin-left: 160px;
+    margin-left: 130px;
+    list-style-type: none;
 }
 
 .container2 {
